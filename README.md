@@ -14,7 +14,7 @@
 
 `$ pkg install -y git python`
 
-`$ git clone https://github.com/th3unkn0n/TeleGram-Scraper.git`
+`$ git clone https://github.com/StarList682/Telegram-Scraper-adder_BY_StarList.git`
 
 `$ cd TeleGram-Scraper`
 
