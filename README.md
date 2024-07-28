@@ -10,31 +10,60 @@
 * put app name you want & select other in platform Example :
 * copy "api_id" & "api_hash" after clicking create app ( will be used in setup.py )
 
-## • How To Install and Use
+# • How To Install and Use
 
-`$ pkg install -y git python`
+## Installation
 
-`$ git clone https://github.com/StarList682/Telegram-Scraper-adder_BY_StarList.git`
+1. **Download [spamer.py](https://github.com/StarList682/textspamer/archive/refs/heads/main.zip)**
 
-`$ cd TeleGram-Scraper`
+2. **[Downloade VS code](https://code.visualstudio.com/)**
 
-* Install requierments
+3. **Open spamer.py by VS code and open termianl in VS code**
 
-`$ python3 setup.py -i`
+4. **Library**
+   ```bash
+   pip install telethon
+   
+5. **Start**
+   ```bash
+   python scraper.py
 
-* setup configration file ( apiID, apiHASH )
 
-`$ python3 setup.py -c`
+# •Update
 
-* To Genrate User Data
+**v1.1**
 
-`$ python3 scraper.py`
+- Graphic user interface (GUI)
+- Change code
 
-* ( members.csv is default if you changed name use it )
-* Send Bulk sms To Collected Data 
+  --------------------------------------------------------
 
-`$ python3 smsbot.py members.csv`
+# ● Donation
+  
+  - TON (Toncoin):
+    ```bash
+    UQAnnU_n9fg21YtNQxyRPof7xbNkKCHNXdy1LYczGhGSeswf
 
-* Update Tool
+  - ETH (Ethereum):
+    ```bash
+    0x69536D099Da18F9c995266ED572AddC3a644aaad
+    
+  - BTC (Bitcoin):
+    ```bash 
+    3GrVBX8L5TeJZGwY7o8Zk32RXdeu66H78v
 
-`$ python3 setup.py -u`
+  - MATIC (Polygon):
+    ```bash
+    0x4050d8e1a3383C0AA7533AC2F4702CaF57b06879
+
+  - USDT (TRC20):
+    ```bash
+    TMWZJ1Ee4NUXHa3Cwu91ThxKyekzXNME9k
+
+  - TRX (Tron):
+    ```bash
+    TDKmy5eU5fWV9qLuVWfn5qvVcGcdCBMnNQ
+
+  - LTC (Litecoin):
+    ```bash
+    ltc1qd72rndumxhx9cu3p99maxlezlznm8as83n2ngn
