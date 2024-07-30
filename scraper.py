@@ -31,8 +31,9 @@ def start_scraping():
             user_ids.append(participant.id)
             listbox_users.insert(tk.END, f"{participant.id} - {participant.username}")
         messagebox.showinfo("Success", "Scraping completed.")
-    
-    asyncio.create_task(scrape())
+
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(scrape())
 
 def start_adding():
     api_id = entry_api_id.get()
@@ -66,17 +67,15 @@ def start_adding():
 
         messagebox.showinfo("Success", "Adding users completed.")
     
-    asyncio.create_task(add_users())
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(add_users())
 
-# GUI Setup
 root = tk.Tk()
 root.title("Telegram Scraper and Adder")
 
-# Make the window fullscreen
 root.attributes("-fullscreen", True)
 root.bind("<F11>", lambda event: root.attributes("-fullscreen", not root.attributes("-fullscreen")))
 
-# Make the window borderless
 root.configure(bg="#f5f5f5")
 
 font_title = font.Font(family="Helvetica", size=14, weight="bold")
